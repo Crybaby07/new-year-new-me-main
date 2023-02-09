@@ -77,7 +77,7 @@ body{
 
 .contact{
     
-    background-image: url(./images/gradient2.png), url(././images/watch.png);
+    background-image: url(./images/gradient2.png), url(./images/watch.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin: 50px 0px 20px 550px;
@@ -155,9 +155,7 @@ footer{
 
 .eat-healthy{
     display: flex;
-    background-image: url(./images/Frame\ 57.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     margin-bottom: 100px;
     color: #343a40;
 
