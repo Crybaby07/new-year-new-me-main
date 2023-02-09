@@ -1,0 +1,191 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0 50px;
+}
+
+
+.banner{
+    background-image: url(/images/banner/banner1.png);
+    padding: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-heading{
+    text-align: right;
+    width: 400px;
+    margin: 0 0 0 70%;
+}
+.banner-heading h1{
+    font-size: 50px;
+}
+.banner-heading p{
+    margin: 50px 0;
+}
+.banner-heading a{
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #0096c7,#8dc7eb);
+    color: #ffff;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+
+}
+
+.details-text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-text h2{
+    font-size: 40px;
+    text-align: left;
+}
+.details-text p{
+    font-size: 18px;
+}
+.details-text i{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+.plans h1{
+       text-align: center;
+       font-size: 40px;
+       margin-bottom: 70px;
+}
+
+.plan{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.contact{
+    
+    background-image: url(./images/gradient2.png), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 0px 20px 550px;
+    height: 270px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-content h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+.contact-content a{
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #0096c7,#8dc7eb);
+    color: #ffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 100px;
+}
+.info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+.info h2{
+    font-size: 40px;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.subscribe h2{
+    font-size: 40px;
+}
+.subscribe input{
+    padding: 15px 40px;
+    border-radius: 7px; 
+    border: none;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    background-image: linear-gradient(135deg, #0096c7,#8dc7eb);
+    color: white;
+    
+}
+
+.subscribe button{
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #0096c7,#8dc7eb);
+    color: #ffff;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.eat-healthy{
+    display: flex;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    color: #343a40;
+
+  
+}
+.eat-healthy img{
+     width: 70%;
+     padding-left: 10%;
+   
+}
+.headline{
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.highlight{
+    color: #0096c7;
+    font-weight: 700;
+}
+.hone{
+    font-size: 40px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(135deg, #0096c7,#8dc7eb);
+    color: #ffff;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+}
